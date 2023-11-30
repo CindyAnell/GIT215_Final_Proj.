@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Valley Resorts|Contact</title>
+        <meta name="author" content="Cindy Garcia">
+        <meta name="description" content="Swiss Valley Resort Contact page">
+
+
+        <!-- Google Fonts Links -->
+        <link rel="stylesheet" href="https://use.typekit.net/kno4mdr.css">
+
+         <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+        <!-- stylesheet -->
+        <!-- TO DO: Link to your stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+
+     <!--Develop home link and contact but leave accommodation a dud-->
+
+    <header>
+
+        <img src="images/swiss-valley.jpg" alt="picture of a valley full of trees, a river down the middle and mountains behind" width="1440" height="560">
+
+        <h1>
+            Swiss Valley Resorts
+        </h1>
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Accomodations">Accommodations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!--contact page content-->
+        
+        <main>
+            
+            <section id="form">
+                <h3>Contact Us</h3>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!.</p>
+
+                <div>
+                <img src="images/swiss-peak.jpg" alt="Picture of peaks" width="350" height="455">
+                </div>
+
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    
+                    <!-- Name: Required -->
+                    <label for="my-name">Name*</label>
+                    <input type="text" name="my-name" id="my-name" required>
+                        
+                    <!-- Email: Required -->
+                    <label for="my-email">Email*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <!-- Phone -->
+                    <label for="my-number">Phone Number</label>
+                    <input type="tel" name="my-number" id="my-number">
+                        
+                    <!-- preferred method of contact -->
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                            
+                        <!-- Email -->
+                        <input type="radio" name="pref-contact" id="pref-email">
+                        <label for="pref-email">Email</label>
+        
+                        <!-- Phone -->
+                        <input type="radio" name="pref-contact" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                            
+                        <!-- Comments -->
+                        <label for="my-comments">Comments</label>
+                        <textarea name="my-comments" id="my-comments"></textarea>
+        
+                        <!-- Submit Button -->
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+        
+                            
+                    </fieldset>
+                
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Copyright &copy; Swiss Valley Resort - Cindy Garcia</p>
+            <p>For Educational Purposes Only</p>
+        </footer>
